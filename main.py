@@ -5,7 +5,7 @@ from visualizer import plot_and_save_chart
 from report_generator import generate_text_summary, create_pdf_report
 
 if __name__ == "__main__":
-    ticker = 'TVSMOTOR.NS'
+    ticker = 'RELIANCE.NS'
 
     stock_data = get_indian_stock_data(ticker)
     if stock_data is not None:
